@@ -11,6 +11,7 @@ class Movimiento extends Model
         'categoria_id',
         'tipo',
         'monto',
+        'foto',
         'descripcion',
         'monto',
         'fecha',

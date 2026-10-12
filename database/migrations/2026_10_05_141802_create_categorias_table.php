@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
 
             $table->string('nombre');
-            $table->enum('estado', ['activo', 'inactivo']);
+            $table->enum('tipo', ['ingreso', 'gasto']);
 
             $table->timestamps();
         });
